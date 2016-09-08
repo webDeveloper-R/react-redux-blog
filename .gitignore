@@ -2,6 +2,7 @@
 /blog-server/node_modules
 /blog-client/node_modules
 npm-debug.log
+postmarkapi.txt
 
 # Logs
 logs

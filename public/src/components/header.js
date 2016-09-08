@@ -61,7 +61,9 @@ class Header extends Component {
 		const { type, authenticatedUser } = this.props;
 		if(type === 'posts_index') {
        return (
-        <div className="container">
+        <div className="container">export JWT_SECRET=apple
+        export POSTMARK_API_TOKEN=805d85f7-fb5a-402a-876e-4a6b12b45381
+        export FROM_EMAIL=test@goartapp.com
           <ul className="nav  nav-pills navbar-right">
       			<li style={{paddingRight: '10px'}} role="presentation">      
       				<Link style={{color:'#337ab7',  fontSize: '17px'}} to="/posts/new">

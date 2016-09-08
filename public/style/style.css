@@ -1,3 +1,18 @@
 form a {
   margin-left: 5px;
 }
+
+.row1 {
+  margin: 0;
+}
+.left-panel {
+  background: #2c5182;
+  min-height: 100vh;
+}
+.left-panel-title {
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  margin: 80px 0 100px 0;
+}

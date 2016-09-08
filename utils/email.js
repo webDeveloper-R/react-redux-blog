@@ -29,7 +29,7 @@ function sendWelcomeEmail(user, host, finalCB) {
         postmark.sendEmailWithTemplate({
           "From": process.env.FROM_EMAIL,
           "To": user.email,
-          "TemplateId": 491642,
+          "TemplateId": 894542,
           "TemplateModel": {
             "product_name": "React Redux Blog",
             "name": user.name,
